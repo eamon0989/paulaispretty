@@ -6,7 +6,7 @@
 
 body{
     display: grid;
-    grid-template-rows: 14vh 10vh 60vh auto auto;
+    grid-template-rows: 14vh 10vh;
     height: 100vh;
     background-image: url('back.jpg');
     background-repeat: no-repeat;
@@ -51,6 +51,13 @@ img{
 }
 
 #displayMsg{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+#displayArt{
     display: grid;
     place-items: center;
     text-align: center;
